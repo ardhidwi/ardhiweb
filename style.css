@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Warna latar belakang hitam */
+    color: #e0e0e0; /* Warna teks abu-abu terang */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1c1c1c; /* Abu-abu gelap untuk latar kontainer */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Bayangan putih lembut */
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #2e2e2e; /* Garis bawah abu-abu */
+}
+
+.profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #444; /* Border abu-abu di sekitar foto */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #ffffff; /* Warna teks putih */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #b0b0b0; /* Warna teks abu-abu terang */
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+    border-bottom: 2px solid #444; /* Garis bawah abu-abu tua */
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #c0c0c0; /* Teks abu-abu medium */
+    line-height: 1.6;
+}
+
+/* Skills List */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #2e2e2e; /* Abu-abu gelap untuk latar belakang skill */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+/* Contact Section */
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #e0e0e0; /* Teks abu-abu terang */
+}
+
+.contact a {
+    color: #ffffff; /* Link berwarna putih */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #e0e0e0; /* Warna hover abu-abu terang */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2e2e2e;
