@@ -1,0 +1,183 @@
+/* General Style */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+    background-color: #000; /* Hitam */
+}
+
+/* Header */
+header {
+    background-color: #FF4500; /* Oranye */
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #FFA500; /* Oranye Terang */
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #FF4500, #FF6347); /* Gradasi Oranye */
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+/* Product Section */
+#products {
+    margin-bottom: 2rem;
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FF4500; /* Oranye */
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product {
+    background-color: #333; /* Hitam */
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+.product img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #FFA500; /* Oranye Terang */
+}
+
+.product p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.product button {
+    background-color: #FF4500; /* Oranye */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #FFA500; /* Oranye Terang */
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222; /* Hitam Lebih Muda */
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#about h2 {
+    color: #FF4500; /* Oranye */
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333; /* Hitam */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#contact h2 {
+    color: #FF4500; /* Oranye */
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    margin: 0.5rem 0;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #111; /* Hitam Gelap */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
